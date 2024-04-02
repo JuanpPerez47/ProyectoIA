@@ -1,6 +1,8 @@
 import streamlit as st
 import pickle
 import numpy as np
+import pip
+pip.main(["install","openpyxl"])
 
 # Cargar el modelo
 with open("modelobosque.bin", "rb") as file:
